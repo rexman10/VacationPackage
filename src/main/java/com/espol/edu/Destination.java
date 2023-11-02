@@ -5,23 +5,23 @@ import java.util.Objects;
 
 public class Destination {
     private String name;
-    private boolean isPopular;
+    private boolean isItPopular;
     private float extraFee;
 
     /** @param input
      *  Partial constructor for the destination class. */
     public Destination(final String input) {
         this.name = input;
-        this.isPopular = false;
+        this.isItPopular = false;
         this.extraFee = 0;
     }
     /** @param input
      *  @param bool
      *  @param extra
      *  Complete constructor for the destination class. */
-    public Destination(final String input, final boolean bool, float extra) {
+    public Destination(final String input, final boolean bool, final float extra) {
         this.name = input;
-        this.isPopular = bool;
+        this.isItPopular = bool;
         this.extraFee = extra;
     }
     /** @return name attribute of the destination. */
@@ -39,13 +39,13 @@ public class Destination {
      * @return isPopular describes boolean existence.
      * Gets value of popularity if exists. */
     public boolean isPopular() {
-        return isPopular;
+        return isItPopular;
     }
 
     /**
      * @param isPopularInput describes boolean existence. */
     public void setPopular(final boolean isPopularInput) {
-        this.isPopular = isPopularInput;
+        this.isItPopular = isPopularInput;
     }
 
     /**
@@ -80,7 +80,7 @@ public class Destination {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Destination other = (Destination) obj;
+        final Destination other = (Destination) obj;
         return Objects.equals(name, other.name);
     }
 }

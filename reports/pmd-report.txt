@@ -1,0 +1,14 @@
+src/main/java/com/espol/edu/Aditional.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:7:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:12:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/espol/edu/Aditional.java:45:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/espol/edu/Aditional.java:47:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/espol/edu/Aditional.java:49:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/espol/edu/Aditional.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/main/java/com/espol/edu/Aditional.java:53:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/espol/edu/Aditional.java:55:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/espol/edu/Aditional.java:56:	SimplifyBooleanReturns:	SimplifyBooleanReturns: This if statement can be replaced by `return !{condition};`
+src/main/java/com/espol/edu/Aditional.java:57:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
